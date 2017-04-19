@@ -1,0 +1,29 @@
+{
+  "name": "tsmaybe",
+  "version": "1.0.0",
+  "description": "Just a maybe monad with nothing additional",
+  "main": "index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakutis/tsmaybe.git"
+  },
+  "keywords": [
+    "typescript",
+    "maybe",
+    "option",
+    "monad",
+    "just",
+    "nothing",
+    "some",
+    "none"
+  ],
+  "author": "Vytautas Jakutis <vytautas@jakut.is>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakutis/tsmaybe/issues"
+  },
+  "homepage": "https://github.com/jakutis/tsmaybe#readme"
+}
