@@ -2,8 +2,11 @@
   "name": "tsmaybe",
   "version": "1.0.0",
   "description": "Just a maybe monad with nothing additional",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "dist/index",
   "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
     "test": "true"
   },
   "repository": {
@@ -25,5 +28,15 @@
   "bugs": {
     "url": "https://github.com/jakutis/tsmaybe/issues"
   },
-  "homepage": "https://github.com/jakutis/tsmaybe#readme"
+  "homepage": "https://github.com/jakutis/tsmaybe#readme",
+  "devDependencies": {
+    "typescript": "2.2.2"
+  },
+  "files": [
+    "package.json",
+    "LICENSE",
+    "dist",
+    "lib",
+    "tsconfig.json"
+  ]
 }
