@@ -1,6 +1,6 @@
 {
   "name": "tsmaybe",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Just a maybe monad with nothing additional",
   "main": "./dist/index.js",
   "typings": "dist/index",
