@@ -1,9 +1,9 @@
-export type Maybe<T> = (just: (thing: T) => any, nothing: () => any) => any;
+export type Maybe<T> = (defaultThing: T) => T;
 
 export function just<T>(thing: T): Maybe<T> {
-  return (just, nothing) => just(thing);
+  return (defaultThing: T) => thing;
 }
 
 export function nothing<T>(): Maybe<T> {
-  return (just, nothing) => nothing();
+  return (defaultThing: T) => defaultThing;
 }
